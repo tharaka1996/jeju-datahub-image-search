@@ -1,7 +1,7 @@
 [
   {
     "image_id": "report_95_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p1.png",
+    "image_path": "data/images/report_95_p1.png",
     "image_filename": "report_95_p1.png",
     "relative_image_path": "data/images/report_95_p1.png",
     "report_id": 95,
@@ -20,7 +20,7 @@
   },
   {
     "image_id": "report_95_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p2.png",
+    "image_path": "data/images/report_95_p2.png",
     "image_filename": "report_95_p2.png",
     "relative_image_path": "data/images/report_95_p2.png",
     "report_id": 95,
@@ -39,7 +39,7 @@
   },
   {
     "image_id": "report_95_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p3.png",
+    "image_path": "data/images/report_95_p3.png",
     "image_filename": "report_95_p3.png",
     "relative_image_path": "data/images/report_95_p3.png",
     "report_id": 95,
@@ -58,7 +58,7 @@
   },
   {
     "image_id": "report_95_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p4.png",
+    "image_path": "data/images/report_95_p4.png",
     "image_filename": "report_95_p4.png",
     "relative_image_path": "data/images/report_95_p4.png",
     "report_id": 95,
@@ -77,7 +77,7 @@
   },
   {
     "image_id": "report_95_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p5.png",
+    "image_path": "data/images/report_95_p5.png",
     "image_filename": "report_95_p5.png",
     "relative_image_path": "data/images/report_95_p5.png",
     "report_id": 95,
@@ -96,7 +96,7 @@
   },
   {
     "image_id": "report_95_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p6.png",
+    "image_path": "data/images/report_95_p6.png",
     "image_filename": "report_95_p6.png",
     "relative_image_path": "data/images/report_95_p6.png",
     "report_id": 95,
@@ -115,7 +115,7 @@
   },
   {
     "image_id": "report_95_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p7.png",
+    "image_path": "data/images/report_95_p7.png",
     "image_filename": "report_95_p7.png",
     "relative_image_path": "data/images/report_95_p7.png",
     "report_id": 95,
@@ -134,7 +134,7 @@
   },
   {
     "image_id": "report_95_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p8.png",
+    "image_path": "data/images/report_95_p8.png",
     "image_filename": "report_95_p8.png",
     "relative_image_path": "data/images/report_95_p8.png",
     "report_id": 95,
@@ -153,7 +153,7 @@
   },
   {
     "image_id": "report_95_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p9.png",
+    "image_path": "data/images/report_95_p9.png",
     "image_filename": "report_95_p9.png",
     "relative_image_path": "data/images/report_95_p9.png",
     "report_id": 95,
@@ -172,7 +172,7 @@
   },
   {
     "image_id": "report_95_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p10.png",
+    "image_path": "data/images/report_95_p10.png",
     "image_filename": "report_95_p10.png",
     "relative_image_path": "data/images/report_95_p10.png",
     "report_id": 95,
@@ -191,7 +191,7 @@
   },
   {
     "image_id": "report_95_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p11.png",
+    "image_path": "data/images/report_95_p11.png",
     "image_filename": "report_95_p11.png",
     "relative_image_path": "data/images/report_95_p11.png",
     "report_id": 95,
@@ -210,7 +210,7 @@
   },
   {
     "image_id": "report_95_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_95_p12.png",
+    "image_path": "data/images/report_95_p12.png",
     "image_filename": "report_95_p12.png",
     "relative_image_path": "data/images/report_95_p12.png",
     "report_id": 95,
@@ -229,7 +229,7 @@
   },
   {
     "image_id": "report_94_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p1.png",
+    "image_path": "data/images/report_94_p1.png",
     "image_filename": "report_94_p1.png",
     "relative_image_path": "data/images/report_94_p1.png",
     "report_id": 94,
@@ -251,7 +251,7 @@
   },
   {
     "image_id": "report_94_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p2.png",
+    "image_path": "data/images/report_94_p2.png",
     "image_filename": "report_94_p2.png",
     "relative_image_path": "data/images/report_94_p2.png",
     "report_id": 94,
@@ -275,7 +275,7 @@
   },
   {
     "image_id": "report_94_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p3.png",
+    "image_path": "data/images/report_94_p3.png",
     "image_filename": "report_94_p3.png",
     "relative_image_path": "data/images/report_94_p3.png",
     "report_id": 94,
@@ -303,7 +303,7 @@
   },
   {
     "image_id": "report_94_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p4.png",
+    "image_path": "data/images/report_94_p4.png",
     "image_filename": "report_94_p4.png",
     "relative_image_path": "data/images/report_94_p4.png",
     "report_id": 94,
@@ -331,7 +331,7 @@
   },
   {
     "image_id": "report_94_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p5.png",
+    "image_path": "data/images/report_94_p5.png",
     "image_filename": "report_94_p5.png",
     "relative_image_path": "data/images/report_94_p5.png",
     "report_id": 94,
@@ -356,7 +356,7 @@
   },
   {
     "image_id": "report_94_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p6.png",
+    "image_path": "data/images/report_94_p6.png",
     "image_filename": "report_94_p6.png",
     "relative_image_path": "data/images/report_94_p6.png",
     "report_id": 94,
@@ -384,7 +384,7 @@
   },
   {
     "image_id": "report_94_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p7.png",
+    "image_path": "data/images/report_94_p7.png",
     "image_filename": "report_94_p7.png",
     "relative_image_path": "data/images/report_94_p7.png",
     "report_id": 94,
@@ -412,7 +412,7 @@
   },
   {
     "image_id": "report_94_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p8.png",
+    "image_path": "data/images/report_94_p8.png",
     "image_filename": "report_94_p8.png",
     "relative_image_path": "data/images/report_94_p8.png",
     "report_id": 94,
@@ -437,7 +437,7 @@
   },
   {
     "image_id": "report_94_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p9.png",
+    "image_path": "data/images/report_94_p9.png",
     "image_filename": "report_94_p9.png",
     "relative_image_path": "data/images/report_94_p9.png",
     "report_id": 94,
@@ -465,7 +465,7 @@
   },
   {
     "image_id": "report_94_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p10.png",
+    "image_path": "data/images/report_94_p10.png",
     "image_filename": "report_94_p10.png",
     "relative_image_path": "data/images/report_94_p10.png",
     "report_id": 94,
@@ -493,7 +493,7 @@
   },
   {
     "image_id": "report_94_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p11.png",
+    "image_path": "data/images/report_94_p11.png",
     "image_filename": "report_94_p11.png",
     "relative_image_path": "data/images/report_94_p11.png",
     "report_id": 94,
@@ -512,7 +512,7 @@
   },
   {
     "image_id": "report_94_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_94_p12.png",
+    "image_path": "data/images/report_94_p12.png",
     "image_filename": "report_94_p12.png",
     "relative_image_path": "data/images/report_94_p12.png",
     "report_id": 94,
@@ -531,7 +531,7 @@
   },
   {
     "image_id": "report_93_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p1.png",
+    "image_path": "data/images/report_93_p1.png",
     "image_filename": "report_93_p1.png",
     "relative_image_path": "data/images/report_93_p1.png",
     "report_id": 93,
@@ -553,7 +553,7 @@
   },
   {
     "image_id": "report_93_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p2.png",
+    "image_path": "data/images/report_93_p2.png",
     "image_filename": "report_93_p2.png",
     "relative_image_path": "data/images/report_93_p2.png",
     "report_id": 93,
@@ -578,7 +578,7 @@
   },
   {
     "image_id": "report_93_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p3.png",
+    "image_path": "data/images/report_93_p3.png",
     "image_filename": "report_93_p3.png",
     "relative_image_path": "data/images/report_93_p3.png",
     "report_id": 93,
@@ -606,7 +606,7 @@
   },
   {
     "image_id": "report_93_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p4.png",
+    "image_path": "data/images/report_93_p4.png",
     "image_filename": "report_93_p4.png",
     "relative_image_path": "data/images/report_93_p4.png",
     "report_id": 93,
@@ -634,7 +634,7 @@
   },
   {
     "image_id": "report_93_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p5.png",
+    "image_path": "data/images/report_93_p5.png",
     "image_filename": "report_93_p5.png",
     "relative_image_path": "data/images/report_93_p5.png",
     "report_id": 93,
@@ -659,7 +659,7 @@
   },
   {
     "image_id": "report_93_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p6.png",
+    "image_path": "data/images/report_93_p6.png",
     "image_filename": "report_93_p6.png",
     "relative_image_path": "data/images/report_93_p6.png",
     "report_id": 93,
@@ -687,7 +687,7 @@
   },
   {
     "image_id": "report_93_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p7.png",
+    "image_path": "data/images/report_93_p7.png",
     "image_filename": "report_93_p7.png",
     "relative_image_path": "data/images/report_93_p7.png",
     "report_id": 93,
@@ -715,7 +715,7 @@
   },
   {
     "image_id": "report_93_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p8.png",
+    "image_path": "data/images/report_93_p8.png",
     "image_filename": "report_93_p8.png",
     "relative_image_path": "data/images/report_93_p8.png",
     "report_id": 93,
@@ -739,7 +739,7 @@
   },
   {
     "image_id": "report_93_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p9.png",
+    "image_path": "data/images/report_93_p9.png",
     "image_filename": "report_93_p9.png",
     "relative_image_path": "data/images/report_93_p9.png",
     "report_id": 93,
@@ -767,7 +767,7 @@
   },
   {
     "image_id": "report_93_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p10.png",
+    "image_path": "data/images/report_93_p10.png",
     "image_filename": "report_93_p10.png",
     "relative_image_path": "data/images/report_93_p10.png",
     "report_id": 93,
@@ -795,7 +795,7 @@
   },
   {
     "image_id": "report_93_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p11.png",
+    "image_path": "data/images/report_93_p11.png",
     "image_filename": "report_93_p11.png",
     "relative_image_path": "data/images/report_93_p11.png",
     "report_id": 93,
@@ -814,7 +814,7 @@
   },
   {
     "image_id": "report_93_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_93_p12.png",
+    "image_path": "data/images/report_93_p12.png",
     "image_filename": "report_93_p12.png",
     "relative_image_path": "data/images/report_93_p12.png",
     "report_id": 93,
@@ -833,7 +833,7 @@
   },
   {
     "image_id": "report_92_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p1.png",
+    "image_path": "data/images/report_92_p1.png",
     "image_filename": "report_92_p1.png",
     "relative_image_path": "data/images/report_92_p1.png",
     "report_id": 92,
@@ -855,7 +855,7 @@
   },
   {
     "image_id": "report_92_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p2.png",
+    "image_path": "data/images/report_92_p2.png",
     "image_filename": "report_92_p2.png",
     "relative_image_path": "data/images/report_92_p2.png",
     "report_id": 92,
@@ -880,7 +880,7 @@
   },
   {
     "image_id": "report_92_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p3.png",
+    "image_path": "data/images/report_92_p3.png",
     "image_filename": "report_92_p3.png",
     "relative_image_path": "data/images/report_92_p3.png",
     "report_id": 92,
@@ -908,7 +908,7 @@
   },
   {
     "image_id": "report_92_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p4.png",
+    "image_path": "data/images/report_92_p4.png",
     "image_filename": "report_92_p4.png",
     "relative_image_path": "data/images/report_92_p4.png",
     "report_id": 92,
@@ -936,7 +936,7 @@
   },
   {
     "image_id": "report_92_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p5.png",
+    "image_path": "data/images/report_92_p5.png",
     "image_filename": "report_92_p5.png",
     "relative_image_path": "data/images/report_92_p5.png",
     "report_id": 92,
@@ -960,7 +960,7 @@
   },
   {
     "image_id": "report_92_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p6.png",
+    "image_path": "data/images/report_92_p6.png",
     "image_filename": "report_92_p6.png",
     "relative_image_path": "data/images/report_92_p6.png",
     "report_id": 92,
@@ -988,7 +988,7 @@
   },
   {
     "image_id": "report_92_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p7.png",
+    "image_path": "data/images/report_92_p7.png",
     "image_filename": "report_92_p7.png",
     "relative_image_path": "data/images/report_92_p7.png",
     "report_id": 92,
@@ -1016,7 +1016,7 @@
   },
   {
     "image_id": "report_92_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p8.png",
+    "image_path": "data/images/report_92_p8.png",
     "image_filename": "report_92_p8.png",
     "relative_image_path": "data/images/report_92_p8.png",
     "report_id": 92,
@@ -1040,7 +1040,7 @@
   },
   {
     "image_id": "report_92_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p9.png",
+    "image_path": "data/images/report_92_p9.png",
     "image_filename": "report_92_p9.png",
     "relative_image_path": "data/images/report_92_p9.png",
     "report_id": 92,
@@ -1068,7 +1068,7 @@
   },
   {
     "image_id": "report_92_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p10.png",
+    "image_path": "data/images/report_92_p10.png",
     "image_filename": "report_92_p10.png",
     "relative_image_path": "data/images/report_92_p10.png",
     "report_id": 92,
@@ -1096,7 +1096,7 @@
   },
   {
     "image_id": "report_92_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p11.png",
+    "image_path": "data/images/report_92_p11.png",
     "image_filename": "report_92_p11.png",
     "relative_image_path": "data/images/report_92_p11.png",
     "report_id": 92,
@@ -1115,7 +1115,7 @@
   },
   {
     "image_id": "report_92_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_92_p12.png",
+    "image_path": "data/images/report_92_p12.png",
     "image_filename": "report_92_p12.png",
     "relative_image_path": "data/images/report_92_p12.png",
     "report_id": 92,
@@ -1134,7 +1134,7 @@
   },
   {
     "image_id": "report_91_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p1.png",
+    "image_path": "data/images/report_91_p1.png",
     "image_filename": "report_91_p1.png",
     "relative_image_path": "data/images/report_91_p1.png",
     "report_id": 91,
@@ -1156,7 +1156,7 @@
   },
   {
     "image_id": "report_91_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p2.png",
+    "image_path": "data/images/report_91_p2.png",
     "image_filename": "report_91_p2.png",
     "relative_image_path": "data/images/report_91_p2.png",
     "report_id": 91,
@@ -1180,7 +1180,7 @@
   },
   {
     "image_id": "report_91_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p3.png",
+    "image_path": "data/images/report_91_p3.png",
     "image_filename": "report_91_p3.png",
     "relative_image_path": "data/images/report_91_p3.png",
     "report_id": 91,
@@ -1208,7 +1208,7 @@
   },
   {
     "image_id": "report_91_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p4.png",
+    "image_path": "data/images/report_91_p4.png",
     "image_filename": "report_91_p4.png",
     "relative_image_path": "data/images/report_91_p4.png",
     "report_id": 91,
@@ -1236,7 +1236,7 @@
   },
   {
     "image_id": "report_91_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p5.png",
+    "image_path": "data/images/report_91_p5.png",
     "image_filename": "report_91_p5.png",
     "relative_image_path": "data/images/report_91_p5.png",
     "report_id": 91,
@@ -1261,7 +1261,7 @@
   },
   {
     "image_id": "report_91_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p6.png",
+    "image_path": "data/images/report_91_p6.png",
     "image_filename": "report_91_p6.png",
     "relative_image_path": "data/images/report_91_p6.png",
     "report_id": 91,
@@ -1289,7 +1289,7 @@
   },
   {
     "image_id": "report_91_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p7.png",
+    "image_path": "data/images/report_91_p7.png",
     "image_filename": "report_91_p7.png",
     "relative_image_path": "data/images/report_91_p7.png",
     "report_id": 91,
@@ -1317,7 +1317,7 @@
   },
   {
     "image_id": "report_91_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p8.png",
+    "image_path": "data/images/report_91_p8.png",
     "image_filename": "report_91_p8.png",
     "relative_image_path": "data/images/report_91_p8.png",
     "report_id": 91,
@@ -1342,7 +1342,7 @@
   },
   {
     "image_id": "report_91_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p9.png",
+    "image_path": "data/images/report_91_p9.png",
     "image_filename": "report_91_p9.png",
     "relative_image_path": "data/images/report_91_p9.png",
     "report_id": 91,
@@ -1370,7 +1370,7 @@
   },
   {
     "image_id": "report_91_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p10.png",
+    "image_path": "data/images/report_91_p10.png",
     "image_filename": "report_91_p10.png",
     "relative_image_path": "data/images/report_91_p10.png",
     "report_id": 91,
@@ -1398,7 +1398,7 @@
   },
   {
     "image_id": "report_91_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p11.png",
+    "image_path": "data/images/report_91_p11.png",
     "image_filename": "report_91_p11.png",
     "relative_image_path": "data/images/report_91_p11.png",
     "report_id": 91,
@@ -1417,7 +1417,7 @@
   },
   {
     "image_id": "report_91_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_91_p12.png",
+    "image_path": "data/images/report_91_p12.png",
     "image_filename": "report_91_p12.png",
     "relative_image_path": "data/images/report_91_p12.png",
     "report_id": 91,
@@ -1436,7 +1436,7 @@
   },
   {
     "image_id": "report_90_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p1.png",
+    "image_path": "data/images/report_90_p1.png",
     "image_filename": "report_90_p1.png",
     "relative_image_path": "data/images/report_90_p1.png",
     "report_id": 90,
@@ -1458,7 +1458,7 @@
   },
   {
     "image_id": "report_90_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p2.png",
+    "image_path": "data/images/report_90_p2.png",
     "image_filename": "report_90_p2.png",
     "relative_image_path": "data/images/report_90_p2.png",
     "report_id": 90,
@@ -1482,7 +1482,7 @@
   },
   {
     "image_id": "report_90_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p3.png",
+    "image_path": "data/images/report_90_p3.png",
     "image_filename": "report_90_p3.png",
     "relative_image_path": "data/images/report_90_p3.png",
     "report_id": 90,
@@ -1510,7 +1510,7 @@
   },
   {
     "image_id": "report_90_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p4.png",
+    "image_path": "data/images/report_90_p4.png",
     "image_filename": "report_90_p4.png",
     "relative_image_path": "data/images/report_90_p4.png",
     "report_id": 90,
@@ -1538,7 +1538,7 @@
   },
   {
     "image_id": "report_90_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p5.png",
+    "image_path": "data/images/report_90_p5.png",
     "image_filename": "report_90_p5.png",
     "relative_image_path": "data/images/report_90_p5.png",
     "report_id": 90,
@@ -1563,7 +1563,7 @@
   },
   {
     "image_id": "report_90_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p6.png",
+    "image_path": "data/images/report_90_p6.png",
     "image_filename": "report_90_p6.png",
     "relative_image_path": "data/images/report_90_p6.png",
     "report_id": 90,
@@ -1591,7 +1591,7 @@
   },
   {
     "image_id": "report_90_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p7.png",
+    "image_path": "data/images/report_90_p7.png",
     "image_filename": "report_90_p7.png",
     "relative_image_path": "data/images/report_90_p7.png",
     "report_id": 90,
@@ -1619,7 +1619,7 @@
   },
   {
     "image_id": "report_90_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p8.png",
+    "image_path": "data/images/report_90_p8.png",
     "image_filename": "report_90_p8.png",
     "relative_image_path": "data/images/report_90_p8.png",
     "report_id": 90,
@@ -1644,7 +1644,7 @@
   },
   {
     "image_id": "report_90_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p9.png",
+    "image_path": "data/images/report_90_p9.png",
     "image_filename": "report_90_p9.png",
     "relative_image_path": "data/images/report_90_p9.png",
     "report_id": 90,
@@ -1672,7 +1672,7 @@
   },
   {
     "image_id": "report_90_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p10.png",
+    "image_path": "data/images/report_90_p10.png",
     "image_filename": "report_90_p10.png",
     "relative_image_path": "data/images/report_90_p10.png",
     "report_id": 90,
@@ -1700,7 +1700,7 @@
   },
   {
     "image_id": "report_90_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p11.png",
+    "image_path": "data/images/report_90_p11.png",
     "image_filename": "report_90_p11.png",
     "relative_image_path": "data/images/report_90_p11.png",
     "report_id": 90,
@@ -1719,7 +1719,7 @@
   },
   {
     "image_id": "report_90_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_90_p12.png",
+    "image_path": "data/images/report_90_p12.png",
     "image_filename": "report_90_p12.png",
     "relative_image_path": "data/images/report_90_p12.png",
     "report_id": 90,
@@ -1738,7 +1738,7 @@
   },
   {
     "image_id": "report_89_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p1.png",
+    "image_path": "data/images/report_89_p1.png",
     "image_filename": "report_89_p1.png",
     "relative_image_path": "data/images/report_89_p1.png",
     "report_id": 89,
@@ -1760,7 +1760,7 @@
   },
   {
     "image_id": "report_89_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p2.png",
+    "image_path": "data/images/report_89_p2.png",
     "image_filename": "report_89_p2.png",
     "relative_image_path": "data/images/report_89_p2.png",
     "report_id": 89,
@@ -1785,7 +1785,7 @@
   },
   {
     "image_id": "report_89_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p3.png",
+    "image_path": "data/images/report_89_p3.png",
     "image_filename": "report_89_p3.png",
     "relative_image_path": "data/images/report_89_p3.png",
     "report_id": 89,
@@ -1813,7 +1813,7 @@
   },
   {
     "image_id": "report_89_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p4.png",
+    "image_path": "data/images/report_89_p4.png",
     "image_filename": "report_89_p4.png",
     "relative_image_path": "data/images/report_89_p4.png",
     "report_id": 89,
@@ -1841,7 +1841,7 @@
   },
   {
     "image_id": "report_89_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p5.png",
+    "image_path": "data/images/report_89_p5.png",
     "image_filename": "report_89_p5.png",
     "relative_image_path": "data/images/report_89_p5.png",
     "report_id": 89,
@@ -1866,7 +1866,7 @@
   },
   {
     "image_id": "report_89_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p6.png",
+    "image_path": "data/images/report_89_p6.png",
     "image_filename": "report_89_p6.png",
     "relative_image_path": "data/images/report_89_p6.png",
     "report_id": 89,
@@ -1894,7 +1894,7 @@
   },
   {
     "image_id": "report_89_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p7.png",
+    "image_path": "data/images/report_89_p7.png",
     "image_filename": "report_89_p7.png",
     "relative_image_path": "data/images/report_89_p7.png",
     "report_id": 89,
@@ -1922,7 +1922,7 @@
   },
   {
     "image_id": "report_89_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p8.png",
+    "image_path": "data/images/report_89_p8.png",
     "image_filename": "report_89_p8.png",
     "relative_image_path": "data/images/report_89_p8.png",
     "report_id": 89,
@@ -1947,7 +1947,7 @@
   },
   {
     "image_id": "report_89_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p9.png",
+    "image_path": "data/images/report_89_p9.png",
     "image_filename": "report_89_p9.png",
     "relative_image_path": "data/images/report_89_p9.png",
     "report_id": 89,
@@ -1975,7 +1975,7 @@
   },
   {
     "image_id": "report_89_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p10.png",
+    "image_path": "data/images/report_89_p10.png",
     "image_filename": "report_89_p10.png",
     "relative_image_path": "data/images/report_89_p10.png",
     "report_id": 89,
@@ -2003,7 +2003,7 @@
   },
   {
     "image_id": "report_89_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p11.png",
+    "image_path": "data/images/report_89_p11.png",
     "image_filename": "report_89_p11.png",
     "relative_image_path": "data/images/report_89_p11.png",
     "report_id": 89,
@@ -2022,7 +2022,7 @@
   },
   {
     "image_id": "report_89_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_89_p12.png",
+    "image_path": "data/images/report_89_p12.png",
     "image_filename": "report_89_p12.png",
     "relative_image_path": "data/images/report_89_p12.png",
     "report_id": 89,
@@ -2041,7 +2041,7 @@
   },
   {
     "image_id": "report_88_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p1.png",
+    "image_path": "data/images/report_88_p1.png",
     "image_filename": "report_88_p1.png",
     "relative_image_path": "data/images/report_88_p1.png",
     "report_id": 88,
@@ -2063,7 +2063,7 @@
   },
   {
     "image_id": "report_88_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p2.png",
+    "image_path": "data/images/report_88_p2.png",
     "image_filename": "report_88_p2.png",
     "relative_image_path": "data/images/report_88_p2.png",
     "report_id": 88,
@@ -2088,7 +2088,7 @@
   },
   {
     "image_id": "report_88_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p3.png",
+    "image_path": "data/images/report_88_p3.png",
     "image_filename": "report_88_p3.png",
     "relative_image_path": "data/images/report_88_p3.png",
     "report_id": 88,
@@ -2116,7 +2116,7 @@
   },
   {
     "image_id": "report_88_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p4.png",
+    "image_path": "data/images/report_88_p4.png",
     "image_filename": "report_88_p4.png",
     "relative_image_path": "data/images/report_88_p4.png",
     "report_id": 88,
@@ -2144,7 +2144,7 @@
   },
   {
     "image_id": "report_88_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p5.png",
+    "image_path": "data/images/report_88_p5.png",
     "image_filename": "report_88_p5.png",
     "relative_image_path": "data/images/report_88_p5.png",
     "report_id": 88,
@@ -2169,7 +2169,7 @@
   },
   {
     "image_id": "report_88_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p6.png",
+    "image_path": "data/images/report_88_p6.png",
     "image_filename": "report_88_p6.png",
     "relative_image_path": "data/images/report_88_p6.png",
     "report_id": 88,
@@ -2197,7 +2197,7 @@
   },
   {
     "image_id": "report_88_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p7.png",
+    "image_path": "data/images/report_88_p7.png",
     "image_filename": "report_88_p7.png",
     "relative_image_path": "data/images/report_88_p7.png",
     "report_id": 88,
@@ -2225,7 +2225,7 @@
   },
   {
     "image_id": "report_88_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p8.png",
+    "image_path": "data/images/report_88_p8.png",
     "image_filename": "report_88_p8.png",
     "relative_image_path": "data/images/report_88_p8.png",
     "report_id": 88,
@@ -2250,7 +2250,7 @@
   },
   {
     "image_id": "report_88_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p9.png",
+    "image_path": "data/images/report_88_p9.png",
     "image_filename": "report_88_p9.png",
     "relative_image_path": "data/images/report_88_p9.png",
     "report_id": 88,
@@ -2278,7 +2278,7 @@
   },
   {
     "image_id": "report_88_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p10.png",
+    "image_path": "data/images/report_88_p10.png",
     "image_filename": "report_88_p10.png",
     "relative_image_path": "data/images/report_88_p10.png",
     "report_id": 88,
@@ -2306,7 +2306,7 @@
   },
   {
     "image_id": "report_88_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p11.png",
+    "image_path": "data/images/report_88_p11.png",
     "image_filename": "report_88_p11.png",
     "relative_image_path": "data/images/report_88_p11.png",
     "report_id": 88,
@@ -2325,7 +2325,7 @@
   },
   {
     "image_id": "report_88_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_88_p12.png",
+    "image_path": "data/images/report_88_p12.png",
     "image_filename": "report_88_p12.png",
     "relative_image_path": "data/images/report_88_p12.png",
     "report_id": 88,
@@ -2344,7 +2344,7 @@
   },
   {
     "image_id": "report_87_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p1.png",
+    "image_path": "data/images/report_87_p1.png",
     "image_filename": "report_87_p1.png",
     "relative_image_path": "data/images/report_87_p1.png",
     "report_id": 87,
@@ -2366,7 +2366,7 @@
   },
   {
     "image_id": "report_87_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p2.png",
+    "image_path": "data/images/report_87_p2.png",
     "image_filename": "report_87_p2.png",
     "relative_image_path": "data/images/report_87_p2.png",
     "report_id": 87,
@@ -2390,7 +2390,7 @@
   },
   {
     "image_id": "report_87_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p3.png",
+    "image_path": "data/images/report_87_p3.png",
     "image_filename": "report_87_p3.png",
     "relative_image_path": "data/images/report_87_p3.png",
     "report_id": 87,
@@ -2418,7 +2418,7 @@
   },
   {
     "image_id": "report_87_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p4.png",
+    "image_path": "data/images/report_87_p4.png",
     "image_filename": "report_87_p4.png",
     "relative_image_path": "data/images/report_87_p4.png",
     "report_id": 87,
@@ -2446,7 +2446,7 @@
   },
   {
     "image_id": "report_87_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p5.png",
+    "image_path": "data/images/report_87_p5.png",
     "image_filename": "report_87_p5.png",
     "relative_image_path": "data/images/report_87_p5.png",
     "report_id": 87,
@@ -2471,7 +2471,7 @@
   },
   {
     "image_id": "report_87_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p6.png",
+    "image_path": "data/images/report_87_p6.png",
     "image_filename": "report_87_p6.png",
     "relative_image_path": "data/images/report_87_p6.png",
     "report_id": 87,
@@ -2499,7 +2499,7 @@
   },
   {
     "image_id": "report_87_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p7.png",
+    "image_path": "data/images/report_87_p7.png",
     "image_filename": "report_87_p7.png",
     "relative_image_path": "data/images/report_87_p7.png",
     "report_id": 87,
@@ -2527,7 +2527,7 @@
   },
   {
     "image_id": "report_87_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p8.png",
+    "image_path": "data/images/report_87_p8.png",
     "image_filename": "report_87_p8.png",
     "relative_image_path": "data/images/report_87_p8.png",
     "report_id": 87,
@@ -2551,7 +2551,7 @@
   },
   {
     "image_id": "report_87_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p9.png",
+    "image_path": "data/images/report_87_p9.png",
     "image_filename": "report_87_p9.png",
     "relative_image_path": "data/images/report_87_p9.png",
     "report_id": 87,
@@ -2579,7 +2579,7 @@
   },
   {
     "image_id": "report_87_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p10.png",
+    "image_path": "data/images/report_87_p10.png",
     "image_filename": "report_87_p10.png",
     "relative_image_path": "data/images/report_87_p10.png",
     "report_id": 87,
@@ -2607,7 +2607,7 @@
   },
   {
     "image_id": "report_87_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p11.png",
+    "image_path": "data/images/report_87_p11.png",
     "image_filename": "report_87_p11.png",
     "relative_image_path": "data/images/report_87_p11.png",
     "report_id": 87,
@@ -2626,7 +2626,7 @@
   },
   {
     "image_id": "report_87_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_87_p12.png",
+    "image_path": "data/images/report_87_p12.png",
     "image_filename": "report_87_p12.png",
     "relative_image_path": "data/images/report_87_p12.png",
     "report_id": 87,
@@ -2645,7 +2645,7 @@
   },
   {
     "image_id": "report_86_p1",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p1.png",
+    "image_path": "data/images/report_86_p1.png",
     "image_filename": "report_86_p1.png",
     "relative_image_path": "data/images/report_86_p1.png",
     "report_id": 86,
@@ -2669,7 +2669,7 @@
   },
   {
     "image_id": "report_86_p2",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p2.png",
+    "image_path": "data/images/report_86_p2.png",
     "image_filename": "report_86_p2.png",
     "relative_image_path": "data/images/report_86_p2.png",
     "report_id": 86,
@@ -2694,7 +2694,7 @@
   },
   {
     "image_id": "report_86_p3",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p3.png",
+    "image_path": "data/images/report_86_p3.png",
     "image_filename": "report_86_p3.png",
     "relative_image_path": "data/images/report_86_p3.png",
     "report_id": 86,
@@ -2722,7 +2722,7 @@
   },
   {
     "image_id": "report_86_p4",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p4.png",
+    "image_path": "data/images/report_86_p4.png",
     "image_filename": "report_86_p4.png",
     "relative_image_path": "data/images/report_86_p4.png",
     "report_id": 86,
@@ -2750,7 +2750,7 @@
   },
   {
     "image_id": "report_86_p5",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p5.png",
+    "image_path": "data/images/report_86_p5.png",
     "image_filename": "report_86_p5.png",
     "relative_image_path": "data/images/report_86_p5.png",
     "report_id": 86,
@@ -2778,7 +2778,7 @@
   },
   {
     "image_id": "report_86_p6",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p6.png",
+    "image_path": "data/images/report_86_p6.png",
     "image_filename": "report_86_p6.png",
     "relative_image_path": "data/images/report_86_p6.png",
     "report_id": 86,
@@ -2803,7 +2803,7 @@
   },
   {
     "image_id": "report_86_p7",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p7.png",
+    "image_path": "data/images/report_86_p7.png",
     "image_filename": "report_86_p7.png",
     "relative_image_path": "data/images/report_86_p7.png",
     "report_id": 86,
@@ -2831,7 +2831,7 @@
   },
   {
     "image_id": "report_86_p8",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p8.png",
+    "image_path": "data/images/report_86_p8.png",
     "image_filename": "report_86_p8.png",
     "relative_image_path": "data/images/report_86_p8.png",
     "report_id": 86,
@@ -2859,7 +2859,7 @@
   },
   {
     "image_id": "report_86_p9",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p9.png",
+    "image_path": "data/images/report_86_p9.png",
     "image_filename": "report_86_p9.png",
     "relative_image_path": "data/images/report_86_p9.png",
     "report_id": 86,
@@ -2884,7 +2884,7 @@
   },
   {
     "image_id": "report_86_p10",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p10.png",
+    "image_path": "data/images/report_86_p10.png",
     "image_filename": "report_86_p10.png",
     "relative_image_path": "data/images/report_86_p10.png",
     "report_id": 86,
@@ -2912,7 +2912,7 @@
   },
   {
     "image_id": "report_86_p11",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p11.png",
+    "image_path": "data/images/report_86_p11.png",
     "image_filename": "report_86_p11.png",
     "relative_image_path": "data/images/report_86_p11.png",
     "report_id": 86,
@@ -2940,7 +2940,7 @@
   },
   {
     "image_id": "report_86_p12",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p12.png",
+    "image_path": "data/images/report_86_p12.png",
     "image_filename": "report_86_p12.png",
     "relative_image_path": "data/images/report_86_p12.png",
     "report_id": 86,
@@ -2965,7 +2965,7 @@
   },
   {
     "image_id": "report_86_p13",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p13.png",
+    "image_path": "data/images/report_86_p13.png",
     "image_filename": "report_86_p13.png",
     "relative_image_path": "data/images/report_86_p13.png",
     "report_id": 86,
@@ -2993,7 +2993,7 @@
   },
   {
     "image_id": "report_86_p14",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p14.png",
+    "image_path": "data/images/report_86_p14.png",
     "image_filename": "report_86_p14.png",
     "relative_image_path": "data/images/report_86_p14.png",
     "report_id": 86,
@@ -3021,7 +3021,7 @@
   },
   {
     "image_id": "report_86_p15",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p15.png",
+    "image_path": "data/images/report_86_p15.png",
     "image_filename": "report_86_p15.png",
     "relative_image_path": "data/images/report_86_p15.png",
     "report_id": 86,
@@ -3040,7 +3040,7 @@
   },
   {
     "image_id": "report_86_p16",
-    "image_path": "D:\\BK21 - Tharaka\\Sem 3\\AMIS - Midterm exam\\jeju-datahub-image-search\\data\\images\\report_86_p16.png",
+    "image_path": "data/images/report_86_p16.png",
     "image_filename": "report_86_p16.png",
     "relative_image_path": "data/images/report_86_p16.png",
     "report_id": 86,

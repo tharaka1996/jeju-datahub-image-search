@@ -130,6 +130,11 @@ class JejuMultimodalSearcher:
 
             for b_idx, rec in enumerate(batch_records):
                 img_path = rec.get("image_path")
+                if not img_path or not os.path.exists(img_path):
+                    fname = rec.get("image_filename")
+                    if fname and (IMAGES_DIR / fname).exists():
+                        img_path = str(IMAGES_DIR / fname)
+
                 if img_path and os.path.exists(img_path):
                     try:
                         img = Image.open(img_path).convert("RGB")
@@ -343,8 +348,23 @@ class JejuMultimodalSearcher:
             matched_term = matched_terms[idx]
 
             # Category filter if specified
-            if category_filter and category_filter != "전체" and rec.get("category") != category_filter:
-                continue
+            if category_filter and category_filter != "전체":
+                cat_match = (rec.get("category") == category_filter)
+                cat_keywords_map = {
+                    "교통/렌터카 (Transport & Rental)": ["렌터카", "렌트카", "자동차임대", "차량대여", "주유소", "가스충전", "충전소"],
+                    "외식/식음료 (Dining & F&B)": ["음식점", "한식", "일식", "중식", "서양식", "식당", "외식", "카페", "음료"],
+                    "골프/스포츠 (Golf & Sports)": ["골프", "골프장", "스포츠", "오락", "레크레이션"],
+                    "숙박/여행 (Accommodation & Travel)": ["호텔", "숙박", "콘도", "여관", "리조트", "여행사"],
+                    "쇼핑/소매 (Shopping & Retail)": ["면세점", "소매", "편의점", "마트", "선물용품", "백화점"],
+                    "관광동향 (Tourism Trends)": ["관광객", "외국인", "중국관광객", "내국인관광객", "관광"],
+                    "에너지/자연 (Energy & Nature)": ["풍력", "에너지", "신재생", "풍력발전"],
+                    "종합소비동향 (General Spending)": ["소비동향", "카드이용금액", "신용카드", "소비지출", "이용금액"]
+                }
+                target_kws = cat_keywords_map.get(category_filter, [])
+                t_lower = (rec.get("extracted_text", "") + " " + rec.get("chart_title", "")).lower()
+                text_match = any(kw.lower() in t_lower for kw in target_kws)
+                if not (cat_match or text_match):
+                    continue
 
             reason = self.generate_match_reason(
                 record=rec,

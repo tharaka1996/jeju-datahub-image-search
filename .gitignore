@@ -38,7 +38,6 @@ ENV/
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Large temporary files (keep representative reports & precomputed embeddings for cloud demo)
+~$*
 *.tmp
 *.log
