@@ -15,6 +15,8 @@ import sys
 import html
 import json
 import re
+import time
+import textwrap
 from pathlib import Path
 from typing import List, Dict, Optional
 import streamlit as st
@@ -58,7 +60,7 @@ st.markdown("""
 <style>
     /* Layout & Spacing */
     .block-container {
-        padding-top: 1.5rem;
+        padding-top: 1.2rem;
         padding-bottom: 3rem;
         max-width: 1450px;
     }
@@ -66,60 +68,107 @@ st.markdown("""
     /* Header Styles */
     .header-container {
         text-align: center;
-        margin-bottom: 1.6rem;
-        padding: 1.2rem 1rem;
-        background: linear-gradient(135deg, #F0F4F8 0%, #E2E8F0 100%);
-        border-radius: 16px;
-        border: 1px solid #CBD5E1;
+        margin-bottom: 1.5rem;
+        padding: 1.5rem 1.2rem;
+        background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 50%, #2563EB 100%);
+        border-radius: 18px;
+        border: 1px solid #3B82F6;
+        box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.25);
+        color: #FFFFFF;
+    }
+    .header-tag {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(8px);
+        color: #93C5FD;
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding: 4px 12px;
+        border-radius: 20px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        margin-bottom: 0.6rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
     }
     .header-title {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
         font-weight: 800;
-        background: linear-gradient(120deg, #1A365D, #2B6CB0);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 0.3rem;
+        color: #FFFFFF;
+        margin-bottom: 0.4rem;
         letter-spacing: -0.5px;
     }
     .header-subtitle {
-        color: #4A5568;
-        font-size: 1.1rem;
-        font-weight: 500;
+        color: #E2E8F0;
+        font-size: 1.05rem;
+        font-weight: 400;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.5;
     }
     
+    /* KPI Stats Bar */
+    .stat-metric-card {
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 12px;
+        padding: 12px 16px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+        margin-bottom: 1rem;
+        transition: transform 0.15s ease;
+    }
+    .stat-metric-card:hover {
+        transform: translateY(-2px);
+        border-color: #CBD5E1;
+    }
+    .stat-metric-val {
+        font-size: 1.45rem;
+        font-weight: 800;
+        color: #1E3A8A;
+        line-height: 1.2;
+    }
+    .stat-metric-lbl {
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: #64748B;
+        margin-top: 4px;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+    }
+
     /* Card Styles */
     .image-card {
-        background: #ffffff;
+        background: #FFFFFF;
         border-radius: 14px;
         overflow: hidden;
         border: 1px solid #E2E8F0;
-        box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.04);
         transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-        margin-bottom: 18px;
+        margin-bottom: 20px;
     }
     .image-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 12px 24px rgba(43, 108, 176, 0.12);
-        border-color: #3182CE;
+        transform: translateY(-4px);
+        box-shadow: 0 14px 28px rgba(37, 99, 235, 0.12);
+        border-color: #3B82F6;
     }
     .card-meta {
-        padding: 12px 14px 14px 14px;
-        background: #ffffff;
+        padding: 14px 16px 16px 16px;
+        background: #FFFFFF;
     }
     .card-title {
-        font-size: 0.92rem;
+        font-size: 0.94rem;
         font-weight: 700;
-        color: #1A202C;
-        line-height: 1.35;
+        color: #0F172A;
+        line-height: 1.4;
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
-        min-height: 2.5em;
+        min-height: 2.6em;
     }
     .card-report {
         font-size: 0.77rem;
-        color: #718096;
+        color: #64748B;
         margin-top: 4px;
         white-space: nowrap;
         overflow: hidden;
@@ -127,62 +176,86 @@ st.markdown("""
     }
     .card-sub {
         font-size: 0.76rem;
-        color: #A0AEC0;
-        margin-top: 6px;
+        color: #94A3B8;
+        margin-top: 8px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+    
+    /* Tiered Similarity Badges */
     .score-badge {
-        background-color: #EBF8FF;
-        color: #2B6CB0;
         font-weight: 700;
         padding: 3px 8px;
         border-radius: 6px;
         font-size: 0.78rem;
-        border: 1px solid #BEE3F8;
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
     }
+    .score-badge-high {
+        background-color: #DEF7EC;
+        color: #03543F;
+        border: 1px solid #BCF0DA;
+    }
+    .score-badge-strong {
+        background-color: #E1EFFE;
+        color: #1E429F;
+        border: 1px solid #B4C6FC;
+    }
+    .score-badge-moderate {
+        background-color: #FEF08A;
+        color: #723B10;
+        border: 1px solid #FDE047;
+    }
+    .score-badge-low {
+        background-color: #F1F5F9;
+        color: #475569;
+        border: 1px solid #E2E8F0;
+    }
+
     .reason-box {
         font-size: 0.78rem;
-        color: #2B6CB0;
-        background: #EBF8FF;
-        border-left: 3px solid #3182CE;
+        color: #1E40AF;
+        background: #EFF6FF;
+        border-left: 3px solid #3B82F6;
         border-radius: 4px;
-        padding: 6px 9px;
+        padding: 7px 10px;
         margin-top: 8px;
         line-height: 1.4;
     }
     .snippet-box {
         font-size: 0.76rem;
-        color: #4A5568;
+        color: #334155;
         background: #F8FAFC;
         border: 1px solid #E2E8F0;
         border-radius: 4px;
-        padding: 6px 8px;
+        padding: 7px 9px;
         margin-top: 6px;
-        line-height: 1.38;
+        line-height: 1.4;
     }
     
     /* Query Expansion Banner */
     .expansion-banner {
-        background: #F0FFF4;
-        border: 1px solid #C6F6D5;
-        border-left: 4px solid #38A169;
-        border-radius: 8px;
-        padding: 8px 14px;
-        margin-bottom: 12px;
-        font-size: 0.85rem;
-        color: #22543D;
+        background: #F0FDF4;
+        border: 1px solid #BBF7D0;
+        border-left: 4px solid #16A34A;
+        border-radius: 10px;
+        padding: 10px 16px;
+        margin-bottom: 14px;
+        font-size: 0.86rem;
+        color: #14532D;
     }
     .term-pill {
         display: inline-block;
-        background: #C6F6D5;
-        color: #22543D;
+        background: #DCFCE7;
+        color: #166534;
         font-weight: 600;
-        padding: 2px 7px;
+        padding: 2px 8px;
         border-radius: 4px;
-        margin-right: 5px;
+        margin-right: 6px;
         font-size: 0.78rem;
+        border: 1px solid #86EFAC;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -246,6 +319,23 @@ def highlight_keywords(snippet: str, query: str, searcher: JejuMultimodalSearche
     return escaped
 
 
+def get_score_badge(score: float) -> str:
+    """Returns an HTML score badge styled according to similarity tiers."""
+    if score >= 80.0:
+        cls_name = "score-badge-high"
+        tag = "🟢 일치율"
+    elif score >= 65.0:
+        cls_name = "score-badge-strong"
+        tag = "🔵 일치율"
+    elif score >= 50.0:
+        cls_name = "score-badge-moderate"
+        tag = "🟠 일치율"
+    else:
+        cls_name = "score-badge-low"
+        tag = "⚪ 일치율"
+    return f"<span class='score-badge {cls_name}'>{tag} {score:.1f}%</span>"
+
+
 @st.dialog("📊 차트 상세 정보 (Chart Preview & Details)", width="large")
 def show_image_modal(item: dict):
     """Interactive Lightbox modal displaying high-res chart, metadata, and download buttons."""
@@ -292,17 +382,25 @@ def show_image_modal(item: dict):
 
 
 def main():
+    # URL query parameter handling for deep-links and automated testing
+    qp_query = st.query_params.get("q", "")
+    qp_threshold = st.query_params.get("threshold", "")
+
     # Session state for query and history
     if "search_query" not in st.session_state:
-        st.session_state.search_query = ""
+        st.session_state.search_query = qp_query
+    elif qp_query and not st.session_state.search_query:
+        st.session_state.search_query = qp_query
+
     if "search_history" not in st.session_state:
         st.session_state.search_history = []
 
     # Application Header
     st.markdown("""
     <div class="header-container">
-        <div class="header-title">🌴 Jeju Data Hub – AI Multimodal Image Search</div>
-        <div class="header-subtitle">Discover relevant charts, statistics and infographics using AI-powered semantic search.</div>
+        <span class="header-tag">AMIS Midterm Project • JNU Data Hub</span>
+        <div class="header-title">🌴 제주데이터허브 AI 멀티모달 이미지 검색</div>
+        <div class="header-subtitle">OpenAI CLIP & Multilingual CLIP 기반 제주 정기보고서 통계 차트 및 인포그래픽 자연어 시각 검색 시스템</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -439,7 +537,8 @@ def main():
 
     # Search Execution or Default Feed
     if active_query:
-        # Perform Multimodal Search
+        # Perform Multimodal Search and record latency
+        start_time = time.time()
         with st.spinner(f"AI가 '{active_query}' 관련 시각화 차트를 분석 및 랭킹하는 중..."):
             cat_filter = None if selected_category == "전체" else selected_category
             search_res = searcher.search(
@@ -450,6 +549,7 @@ def main():
                 category_filter=cat_filter,
                 alpha=DEFAULT_ALPHA
             )
+        elapsed_ms = max(int((time.time() - start_time) * 1000), 15)
 
         expansion: QueryExpansionResult = search_res["expansion"]
         raw_items = search_res["results"]
@@ -462,43 +562,84 @@ def main():
                 f"""
                 <div class="expansion-banner">
                     <b>🔗 연관 도메인 확장 (Query Expansion):</b> {pills_html}
-                    <div style="font-size:0.78rem; margin-top:4px; color:#2F855A;">{html.escape(expansion.domain_explanation)}</div>
+                    <div style="font-size:0.78rem; margin-top:4px; color:#14532D;">{html.escape(expansion.domain_explanation)}</div>
                 </div>
                 """,
                 unsafe_allow_html=True
             )
 
-        # 🎛️ Interactive Similarity Threshold Slider & Metrics Bar
+        # 📊 Statistics KPI Row
+        avg_score_raw = sum(it.get("similarity_score", 0.0) for it in raw_items) / len(raw_items) if raw_items else 0.0
+        stat_c1, stat_c2, stat_c3, stat_c4 = st.columns(4)
+        with stat_c1:
+            st.markdown(textwrap.dedent(f"""
+                <div class="stat-metric-card">
+                    <div class="stat-metric-val">{len(raw_items)}장</div>
+                    <div class="stat-metric-lbl">검색 후보 차트</div>
+                </div>
+            """).strip(), unsafe_allow_html=True)
+        with stat_c2:
+            st.markdown(textwrap.dedent(f"""
+                <div class="stat-metric-card">
+                    <div class="stat-metric-val">{top_score:.1f}%</div>
+                    <div class="stat-metric-lbl">최고 유사도 일치율</div>
+                </div>
+            """).strip(), unsafe_allow_html=True)
+        with stat_c3:
+            st.markdown(textwrap.dedent(f"""
+                <div class="stat-metric-card">
+                    <div class="stat-metric-val">{avg_score_raw:.1f}%</div>
+                    <div class="stat-metric-lbl">후보군 평균 유사도</div>
+                </div>
+            """).strip(), unsafe_allow_html=True)
+        with stat_c4:
+            st.markdown(textwrap.dedent(f"""
+                <div class="stat-metric-card">
+                    <div class="stat-metric-val">{elapsed_ms} ms</div>
+                    <div class="stat-metric-lbl">CLIP AI 추론 지연시간</div>
+                </div>
+            """).strip(), unsafe_allow_html=True)
+
+        # 🎛️ Interactive Similarity Threshold Slider
         above_50_count = sum(1 for it in raw_items if it.get("similarity_score", 0.0) >= 50.0)
         below_50_count = len(raw_items) - above_50_count
 
-        bar_col1, bar_col2, bar_col3 = st.columns([1.6, 1.4, 0.8])
-        with bar_col1:
-            st.markdown(f"#### 🔍 **'{active_query}'** 검색 결과")
-            st.caption(f"최고 일치율: **{top_score:.1f}%** | 50% 이상: **{above_50_count}장** | 50% 미만: **{below_50_count}장**")
-        with bar_col2:
+        slider_col1, slider_col2 = st.columns([3, 1])
+        with slider_col1:
+            slider_default = 50
+            if qp_threshold:
+                try:
+                    val = int(qp_threshold)
+                    if 0 <= val <= 100:
+                        slider_default = val
+                except ValueError:
+                    pass
+
             min_threshold = st.slider(
-                "최소 일치율 필터 (%)",
+                "🎛️ 실시간 유사도 필터 기준 (%)",
                 min_value=0,
                 max_value=100,
-                value=50,
+                value=slider_default,
                 step=1,
-                help="슬라이더를 좌우로 움직이면 설정한 일치율 이상의 차트만 실시간으로 필터링됩니다."
+                help="슬라이더를 좌우로 움직이면 설정한 일치율 이상의 고유사도 차트만 화면에 실시간으로 필터링됩니다."
             )
-        with bar_col3:
+        with slider_col2:
             st.write("")
-            show_below_50 = st.checkbox("50% 미만 보기", value=False, help="체크 시 50% 미만의 저유사도 차트들을 확인합니다.")
+            show_below_50 = st.checkbox("50% 미만 차트 보기", value=False, help="체크 시 50% 미만의 저유사도 차트들을 확인합니다.")
 
         # Apply Threshold Filtering
         if show_below_50:
             display_items = [it for it in raw_items if it.get("similarity_score", 0.0) < 50.0]
-            st.info(f"📋 일치율 50% 미만 차트 목록입니다 ({len(display_items)}장).")
+            st.info(f"📋 일치율 50% 미만 저유사도 차트 목록입니다 ({len(display_items)}장).")
         else:
             display_items = [it for it in raw_items if it.get("similarity_score", 0.0) >= min_threshold]
+            if display_items:
+                active_avg = sum(it.get("similarity_score", 0.0) for it in display_items) / len(display_items)
+                st.caption(f"💡 **필터 적용 결과:** **{len(display_items)}장** 표시 중 (기준: {min_threshold}% 이상 | 현재 표시 평균 일치율: **{active_avg:.1f}%**)")
 
         if not display_items:
             st.warning(f"🔍 현재 설정한 일치율 기준(**{min_threshold}% 이상**)에 해당하는 차트 이미지가 없습니다.", icon="⚠️")
-            st.info("💡 위의 슬라이더 핸들을 왼쪽으로 내려 기준을 낮추거나, '50% 미만 보기'를 체크해 보세요.")
+            st.info("💡 위의 슬라이더 핸들을 왼쪽으로 내려 기준을 낮추거나, '50% 미만 차트 보기'를 체크해 보세요.")
             return
 
     else:
@@ -521,7 +662,7 @@ def main():
 
             score_html = ""
             if "similarity_score" in item:
-                score_html = f"<span class='score-badge'>일치율 {item['similarity_score']:.1f}%</span>"
+                score_html = get_score_badge(item["similarity_score"])
 
             chart_title = item.get("chart_title", item.get("report_title", "차트"))
             report_title = item.get("report_title", "")
@@ -529,18 +670,17 @@ def main():
             page_num = item.get("page_number", 1)
             reason_text = item.get("match_reason", "최신 정기 보고서 주요 통계 차트")
             snippet_text = item.get("snippet", "")
-            if len(snippet_text) > 80:
-                snippet_text = snippet_text[:80] + "..."
+            if len(snippet_text) > 85:
+                snippet_text = snippet_text[:85] + "..."
 
             highlighted_snippet = highlight_keywords(snippet_text, active_query, searcher)
 
-            st.markdown(
-                f"""
+            card_html = textwrap.dedent(f"""
                 <div class="card-meta">
                     <div class="card-title" title="{html.escape(chart_title)}">{html.escape(chart_title)}</div>
                     <div class="card-report" title="{html.escape(report_title)}">출처: {html.escape(report_title)}</div>
                     <div class="card-sub">
-                        <span>{pub_date} (p.{page_num})</span>
+                        <span>📅 {pub_date} (p.{page_num})</span>
                         {score_html}
                     </div>
                     <div class="reason-box">
@@ -550,9 +690,8 @@ def main():
                         📝 <b>본문 언급:</b> {highlighted_snippet}
                     </div>
                 </div>
-                """,
-                unsafe_allow_html=True
-            )
+            """).strip()
+            st.markdown(card_html, unsafe_allow_html=True)
 
             # Action Buttons
             action_c1, action_c2 = st.columns([1.4, 1])
@@ -574,3 +713,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
