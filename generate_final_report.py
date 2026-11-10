@@ -4,7 +4,7 @@ generate_final_report.py
 Generates the 10-page final academic PDF report for Jeju National University (JNU).
 Course: Advanced Management Information Systems (AMIS) - Midterm Exam Project
 Title: Development and Cloud Deployment of an AI Multimodal (CLIP) Image Search System for Jeju Data Hub
-Author: Tharaka (tharaka1996)
+Author: Baiya Dewayalage Tharaka Sandun Gunasiri (AM202521802)
 """
 
 import os
@@ -15,7 +15,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DOCS_DIR = BASE_DIR / "docs"
 SCREENSHOTS_DIR = DOCS_DIR / "screenshots"
 ASSETS_DIR = BASE_DIR / "assets"
-OUTPUT_PDF = DOCS_DIR / "Jeju_DataHub_AI_Image_Search_Final_Report.pdf"
+OUTPUT_PDF = DOCS_DIR / "Jeju_DataHub_AI_Image_Search_Final_Report2.pdf"
 
 from reportlab.lib.pagesizes import A4
 from reportlab.lib import colors
@@ -79,10 +79,10 @@ class NumberedCanvas(canvas.Canvas):
         if self._pageNumber > 1:
             self.saveState()
             # Running Header
-            self.setFont(FONT_REGULAR, 7.5)
+            self.setFont(FONT_REGULAR, 7.0)
             self.setFillColor(colors.HexColor("#475569"))
-            self.drawString(MARGIN, PAGE_HEIGHT - 26, "Jeju National University | AMIS Midterm Project: AI Multimodal Image Search System")
-            self.drawRightString(PAGE_WIDTH - MARGIN, PAGE_HEIGHT - 26, "Student: Tharaka (tharaka1996)")
+            self.drawString(MARGIN, PAGE_HEIGHT - 26, "Jeju National University | AMIS: AI Multimodal Image Search System")
+            self.drawRightString(PAGE_WIDTH - MARGIN, PAGE_HEIGHT - 26, "Student: Baiya Dewayalage Tharaka Sandun Gunasiri (AM202521802)")
             self.setStrokeColor(colors.HexColor("#CBD5E1"))
             self.setLineWidth(0.5)
             self.line(MARGIN, PAGE_HEIGHT - 30, PAGE_WIDTH - MARGIN, PAGE_HEIGHT - 30)
@@ -268,15 +268,15 @@ def build_pdf():
 
     meta_data = [
         [Paragraph("<b>Course:</b>", styles["TableCellBold"]), Paragraph("Advanced Management Information Systems (AMIS)", styles["TableCell"]),
-         Paragraph("<b>Student Name:</b>", styles["TableCellBold"]), Paragraph("Tharaka", styles["TableCell"])],
+         Paragraph("<b>Student Name:</b>", styles["TableCellBold"]), Paragraph("Baiya Dewayalage Tharaka Sandun Gunasiri<br/>(AM202521802)", styles["TableCell"])],
         [Paragraph("<b>Assignment:</b>", styles["TableCellBold"]), Paragraph("Midterm Exam Replacement Project", styles["TableCell"]),
          Paragraph("<b>GitHub Account:</b>", styles["TableCellBold"]), Paragraph("tharaka1996", styles["TableCell"])],
         [Paragraph("<b>Target Domain:</b>", styles["TableCellBold"]), Paragraph("Jeju Data Hub (jejudatahub.net)", styles["TableCell"]),
          Paragraph("<b>Submission Date:</b>", styles["TableCellBold"]), Paragraph("November 2026", styles["TableCell"])],
         [Paragraph("<b>Repository:</b>", styles["TableCellBold"]), Paragraph("<font color='#1E40AF'><u>https://github.com/tharaka1996/jeju-datahub-image-search</u></font>", styles["TableCell"]),
-         Paragraph("<b>Live Cloud App:</b>", styles["TableCellBold"]), Paragraph("<font color='#1E40AF'><u>https://jeju-dataapp-image-search-jfbykqkwsrixbram55eurn.streamlit.app</u></font>", styles["TableCell"])]
+         Paragraph("<b>Live Cloud App:</b>", styles["TableCellBold"]), Paragraph("<font color='#1E40AF'><u>https://jeju-dataapp-image-search-jwow3zrdw7hxf8btb3tata.streamlit.app/</u></font>", styles["TableCell"])]
     ]
-    meta_tbl = Table(meta_data, colWidths=[70, 195, 75, 183])
+    meta_tbl = Table(meta_data, colWidths=[65, 195, 75, 188])
     meta_tbl.setStyle(TableStyle([
         ('BACKGROUND', (0,0), (-1,-1), colors.HexColor("#F8FAFC")),
         ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor("#CBD5E1")),
@@ -945,7 +945,7 @@ def build_pdf():
         "• <b>Target GitHub Repository:</b> <font color='#1E40AF'><u>https://github.com/tharaka1996/jeju-datahub-image-search</u></font><br/>"
         "• <b>GitHub Account:</b> <code>tharaka1996</code> (Jeju National University student account)<br/>"
         "• <b>Verified Public Streamlit App URL:</b><br/>"
-        "&nbsp;&nbsp;&nbsp;&nbsp;<font color='#1E40AF'><u>https://jeju-dataapp-image-search-jfbykqkwsrixbram55eurn.streamlit.app</u></font><br/>"
+        "&nbsp;&nbsp;&nbsp;&nbsp;<font color='#1E40AF'><u>https://jeju-dataapp-image-search-jwow3zrdw7hxf8btb3tata.streamlit.app/</u></font><br/>"
         "• <b>Mobile Testing:</b> Scan the live QR code on the right with any smartphone camera to launch the interactive application instantly in mobile Safari or Chrome.<br/>"
         "• <b>Cloud Deployment Audit:</b> Standardized on Python 3.11 with explicit CPU inference mode to eliminate build failures and guarantee 100% uptime."
     )
@@ -1013,6 +1013,12 @@ def build_pdf():
     # Build PDF with NumberedCanvas
     doc.build(story, canvasmaker=NumberedCanvas)
     print(f"Successfully generated final report PDF: {OUTPUT_PDF}")
+
+    # Also sync to original report path for backward compatibility
+    import shutil
+    orig_pdf = DOCS_DIR / "Jeju_DataHub_AI_Image_Search_Final_Report.pdf"
+    shutil.copyfile(OUTPUT_PDF, orig_pdf)
+    print(f"Successfully mirrored to: {orig_pdf}")
 
 
 if __name__ == "__main__":

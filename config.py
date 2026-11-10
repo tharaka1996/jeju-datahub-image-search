@@ -49,4 +49,4 @@ DEFAULT_ALPHA = 0.65  # Weight between visual/semantic CLIP score and keyword sc
 
 # Public Deployment Info
 GITHUB_REPO_URL = "https://github.com/tharaka1996/jeju-datahub-image-search"
-STREAMLIT_APP_URL = "https://jeju-datahub-image-search.streamlit.app"
+STREAMLIT_APP_URL = "https://jeju-dataapp-image-search-jwow3zrdw7hxf8btb3tata.streamlit.app/"
